@@ -28,3 +28,5 @@ RUN cd /tmp/ctng/crosstool-ng && \
   ./configure --prefix=/usr/local && \
   make -j4 && \
   make install
+
+RUN apt install -y file
